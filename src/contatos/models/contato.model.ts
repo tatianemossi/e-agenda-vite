@@ -1,4 +1,4 @@
-import { EntidadeBase } from "../../shared/entidadeBase.model.js";
+import { EntidadeBase } from "../../shared/entidadeBase.model";
 
 export class Contato extends EntidadeBase {
   public nome: string;

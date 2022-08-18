@@ -1,6 +1,5 @@
-
-import { EntidadeBase } from "../../shared/entidadeBase.model.js";
-import { Prioridade } from "./prioridade.enum.js";
+import { EntidadeBase } from "../../shared/entidadeBase.model";
+import { Prioridade } from "./prioridade.enum";
 
 export class Tarefa extends EntidadeBase {
   public descricao: string;

@@ -1,4 +1,4 @@
-import { EntidadeBase } from "./entidadeBase.model.js";
+import { EntidadeBase } from "./entidadeBase.model";
 
 export interface IRepositorio<T extends EntidadeBase > {
 
